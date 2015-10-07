@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="earnings-info box col-md-4">
+        <h2>My Earnings Info</h2>
+            <ul>
+                <li>Tip total: {{tipTotal | currency}}</li>
+                <li>Meal count: {{mealCount | currency}}</li>
+                <li>Average tip per meal: {{avgTip | currency}}</li>
+            </ul>   
+    </div>
+    <div class="clear"></div>
+    <button ng-click="reset()" class="btn btn-default reset">Reset</button>
+</div>

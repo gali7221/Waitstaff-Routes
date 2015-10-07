@@ -1,0 +1,27 @@
+body {
+	background-color: #7ac5cd;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.app {
+	text-align: center;
+	margin: 1rem auto;
+}
+
+nav {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a {
+	color: #538688;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a: hover {
+	opacity: 0.9;
+	color: #cd3333;
+}

@@ -1,0 +1,114 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+	text-align: center;
+	margin: 40px;
+}
+
+.nav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+  width: 33%;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  text-tranform: uppercase;
+  margin: 30px 0;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #111111;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: center;
+  word-spacing: 5px;
+}
+
+.col-md-5 {
+  width: 50%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.col-md-4 {
+  width: 40%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+.box h2 {
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 0px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.meal-details {
+  margin: 0 auto;
+}
+
+.meal-details form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.meal-details input {
+  padding: 10px;
+  margin: 0 5px 20px 0;
+  width: 80px;
+  border: none;
+  border-bottom: 1px solid #AEAEAE;
+}
+
+.btn {
+  width: 100px;
+  margin: 20px 40%;
+}
+
+.alert{
+  text-align: center;
+}
+
+.results {
+  margin: 0px 40px;
+}
+
+.clear {
+  clear: both;
+}
+
+.earnings-info {
+  margin: 0 25%;
+}
