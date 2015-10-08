@@ -56,6 +56,5 @@ angular.module('WSCApp', ['ngRoute', 'ngAnimate', 'ngMessages'])
 				tips: 0,
 				avgTips: 0
 			}
-		};
-		
+		};		
 	});
