@@ -2,9 +2,9 @@
   <div class="meal-details box col-md-5">
     <h2>Enter the Meal Details</h2>
 
-    <!--<div class="alert alert-danger" ng-if="mealForm.$submitted && (mealForm.mealPrice.$error.required || mealForm.taxRate.$error.required || mealForm.tipPer.$error.required)" ng-show='errorShow'>
+    <div class="alert alert-danger" ng-if="mealForm.$submitted && (mealForm.mealPrice.$error.required || mealForm.taxRate.$error.required || mealForm.tipPer.$error.required)" ng-show='errorShow'>
     Please enter numbers in all fields before submitting.
-    </div>-->
+    </div>  
 
     <form name="mealForm" ng-submit='submit()' novalidate>
       <label>Base meal price: $
@@ -32,8 +32,8 @@
       <h2>Customer Charges</h2>
       <ul>
         <li>Subtotal: {{subTotal | currency}}</li>
-        <li>Tip: {{thisTip | currency}}</li>
-        <li>Total: {{thisTotal | currency}}</li>
+        <li>Tip: {{tip | currency}}</li>
+        <li>Total: {{total | currency}}</li>
       </ul>
     </div>  
   </div>
